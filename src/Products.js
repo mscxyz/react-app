@@ -13,7 +13,8 @@ export class Products extends React.Component {
     }
     
     printNumber(){
-       
+        this.checkes.push(1);
+        console.log(this.checkes);
     }
 
     handleName(event){
