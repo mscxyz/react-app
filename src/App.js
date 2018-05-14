@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Payroll from './Payroll';
-import './App.css';
 
-import Employee from './Employee';
+import './App.css';
+import { Products } from './Products';
 
 class App extends Component {
   
@@ -13,13 +12,11 @@ class App extends Component {
       <div className="App">
 
         <div className="container">
-      
-        <Employee name={'mike silva cute'}/>
 
+        <Products/>
+   
         </div>
          
-          <Payroll/>
-
       </div>
     );
     
